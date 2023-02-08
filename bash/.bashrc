@@ -116,3 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
+# fnm
+eval "`fnm env`"
