@@ -1,4 +1,4 @@
-# some more ls aliases
+# ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
@@ -26,6 +26,7 @@ alias gds='git diff --shortstat'
 __git_complete gds _git_diff
 alias ga='git add'
 alias gaa='git add .'
+alias gcmt='git commit'
 alias gcm='git commit -m'
 alias gcam='git commit -am'
 alias gp='git pull'
@@ -44,6 +45,7 @@ alias dcps='docker-compose ps'
 alias dcud='docker-compose up -d'
 alias dce='docker-compose exec '
 alias dcea='docker-compose exec app '
+alias dceab='docker-compose exec app bash'
 alias dcewfa='docker-compose exec --workdir /app/frontend app '
 alias dcl='docker-compose logs'
 alias dcla='docker-compose logs app'
@@ -60,8 +62,9 @@ alias npc='npm ci'
 alias cyr='npx cypress run -b chrome'
 alias cyo='npx cypress open'
 
-# react and vue aliases
+# frontend aliases
 alias nps='npm start'
+alias npd='npm run dev'
 alias nprb='npm run build'
 alias nprbw='npm run build:watch'
 
@@ -71,4 +74,9 @@ alias djm='./manage.py migrate'
 alias djsm='./manage.py showmigrations'
 alias djmm='./manage.py makemigrations'
 alias djsh='./manage.py shell'
+
+# django extensions
+alias djshp='./manage.py shell_plus'
+alias djsu='./manage.py show_urls'
+alias djvt='./manage.py validate_templates'
 
