@@ -119,3 +119,6 @@ fi
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+
+# nenv
+export PATH="$HOME/.nenv/versions/18.20.0/bin:$PATH"
