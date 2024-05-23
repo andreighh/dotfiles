@@ -81,7 +81,7 @@ alias djmm='./manage.py makemigrations'
 alias djsh='./manage.py shell'
 
 # django extensions
-alias djrs='./manage.py runserver_plus'
+alias djrsp='./manage.py runserver_plus'
 alias djshp='./manage.py shell_plus'
 alias djsu='./manage.py show_urls'
 alias djvt='./manage.py validate_templates'
