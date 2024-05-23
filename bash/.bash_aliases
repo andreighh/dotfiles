@@ -56,6 +56,10 @@ alias dcra='docker-compose restart app'
 alias dcrn='docker-compose restart nginx'
 alias dcd='docker-compose down'
 
+# python aliases
+alias venvup='source .venv/bin/activate'
+alias venvdown='deactivate'
+
 # node aliases
 alias npi='npm install '
 alias npc='npm ci'
@@ -70,12 +74,14 @@ alias nprbw='npm run build:watch'
 
 # django aliases
 alias dj='./manage.py'
+alias djrs='./manage.py runserver'
 alias djm='./manage.py migrate'
 alias djsm='./manage.py showmigrations'
 alias djmm='./manage.py makemigrations'
 alias djsh='./manage.py shell'
 
 # django extensions
+alias djrs='./manage.py runserver_plus'
 alias djshp='./manage.py shell_plus'
 alias djsu='./manage.py show_urls'
 alias djvt='./manage.py validate_templates'
